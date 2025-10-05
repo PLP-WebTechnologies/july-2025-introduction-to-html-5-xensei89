@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Semantic HTML Page | A Guide for Beginners</title>
+
+    <meta name="description" content="A simple and accessible web page built with HTML5 semantic tags to demonstrate best practices in structure and SEO.">
+</head>
+<body>
+
+    <header>
+        <h1>Understanding Semantic HTML</h1>
+        
+        <nav>
+            <ul>
+                <li><a href="#intro">Introduction</a></li>
+                <li><a href="#core-concepts">Core Concepts</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article id="intro">
+            <h2>What is Semantic HTML?</h2>
+            <p>Semantic HTML means using HTML tags that accurately describe the content they contain. Instead of using generic <span> and <div> tags, we use descriptive tags like &lt;header&gt;, &lt;article&gt;, and &lt;footer&gt;. This practice improves both accessibility and SEO.</p>
+        </article>
+        
+        <article id="core-concepts">
+            <h2>Why It Matters</h2>
+            
+            <section>
+                <h3>For Accessibility</h3>
+                <p>Screen readers use semantic tags as landmarks to help users navigate the page efficiently. A user can easily jump from the header to the main content or the footer.</p>
+            </section>
+            
+            <section>
+                <h3>For SEO</h3>
+                <p>Search engines like Google understand the structure of your page better when you use semantic tags. It helps them identify the most important content, which can improve your search ranking.</p>
+                
+                <figure>
+                    <img src="https://via.placeholder.com/400x200" alt="A diagram showing the structure of an HTML5 semantic page.">
+                    <figcaption>Fig. 1 - A basic layout using semantic tags.</figcaption>
+                </figure>
+            </section>
+        </article>
+        
+        <aside>
+            <h2>Did You Know?</h2>
+            <p>HTML5 introduced over 20 new semantic elements, making the web more structured and meaningful than ever before.</p>
+        </aside>
+    </main>
+
+    <footer id="about">
+        <address>
+            Written by A Web Developer.<br>
+            Visit us at: example.com
+        </address>
+        <p>&copy; 2025 My Basic Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
